@@ -3,8 +3,8 @@ import json
 import os
 
 
-BLOOM_KEY = os.environ.get('METAL_KEY')
-BLOOM_HOST = os.environ.get('METAL_HOST')
+METAL_KEY = os.environ.get('METAL_KEY')
+METAL_HOST = os.environ.get('METAL_HOST')
 
 url = "https://live-metal-prices.p.rapidapi.com/v1/latest/XAU,XAG,PA,PL,GBP,EUR/INR/gram"
 
